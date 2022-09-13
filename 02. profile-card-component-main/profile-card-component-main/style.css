@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+}
+body{
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image:url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-color: var(--Darkcyan);
+    background-position: right 51vw  bottom 20vh ,top 45vh  left 50vh ;
+}
+.container{
+    background-color: white;
+    margin: 146px auto;
+    width: 326px;
+    height: 374px;
+    border: solid 1px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.container_top{
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 140px;
+}
+.image{
+    background-image: url(./images/image-victor.jpg);
+    height: 96px ;
+    width: 96px ;
+    border-radius: 50%;
+    border: solid white 5px;
+    position: absolute;
+    left: 110px;
+    top: 96px;
+}
+.container_middle{
+    margin-top: 77px ;
+    /* border: solid 1px ; */
+    text-align: center;
+}
+.container_middle-name{
+    font-weight: 700;
+    color: var(--Verydarkdesaturatedblue);
+}
+.container_middle-age{
+    margin-left: 6px;
+    font-weight: 400;
+    color: var(--Darkgrayishblue);
+}
+.container_middle-country{
+    margin-top: 16px;
+    margin-bottom: 14px;
+    color: var(--Darkgray);
+}
+.container_bottom{
+    padding-top:20px ;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid 1px var(--Darkgray);
+    text-align: center;
+}
+.container_bottom-number{
+    font-weight: 700;
+    color: var(--Verydarkdesaturatedblue);
+
+}
+.container_bottom-text{
+    font-weight: 400;
+    font-size: 0.5em;
+    color: var(--Darkgray);
+    letter-spacing: 2px;
+}
+
+@media  (min-width:1440px) {
+    .container{
+        width: 350px;
+    }
+    
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

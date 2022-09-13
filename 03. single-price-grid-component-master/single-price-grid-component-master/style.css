@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Cyanclaro: hsl(179, 64%, 53%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+body{
+    background-color: var(--LightGray);
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    
+}
+.container{
+    width: 311px;
+    height: 722px;
+    /* border: solid 1px; */
+    margin: 72px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.top_content{
+    height: 267px;
+    padding: 30px 24px 0;
+    background-color: white;
+    
+}
+.top_title{
+    color: var(--Cyan);
+    /* text-align: center; */
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.abstract{
+    color: var(--BrightYellow);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.description{
+    color: var(--GrayishBlue);
+    font-weight: 400;
+    font-size: 0.85em;
+    line-height: 21px;
+}
+.first_box{
+    height: 228px;
+    background-color: var(--Cyan);
+    color: var(--LightGray);
+    padding-top: 30px;
+    padding-left: 24px;
+}
+.bot_title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.price{
+    font-weight: 700;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.price_month{
+    color: rgb(170, 193, 214);
+    font-size: 16px;
+    margin-left: 15px;
+}
+.content_first{
+    margin-bottom: 30px;
+}
+.button{
+    height: 48px;
+    width: 263px;
+    background-color: var(--BrightYellow);
+    text-align: center;
+    font-weight: 700;
+    padding: 18px;
+    border-radius: 7px;
+}
+.second_box{
+    height: 227px;
+    background-color: var(--Cyanclaro);
+    color: var(--LightGray);
+    padding-left: 24px;
+    padding-top: 28px;
+}
+.content_second{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+@media  (min-width:1440px) {
+    .container{
+        width: 635px;
+        height: 475px;
+    }
+    .bottom_content{
+        display: flex;
+        justify-content: stretch;
+    }
+    .top_content{
+        height: 216px;
+    }
+    .first_box{
+      width: 317px;
+      height: 259px;
+    }
+    .second_box{
+        width: 317px;
+        height: 259px;
+    }
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

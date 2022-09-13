@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  text-align: left;
+  margin-right: 500px;
+}
+.container {
+  background-color: rgb(88, 232, 237);
+  width: 800px;
+  height: 70px;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+.menus {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+.menus:hover {
+  color: rgb(29, 29, 132);
+}
+a:link,
+a:visited {
+  color: white;
+
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(29, 29, 132);
+}
