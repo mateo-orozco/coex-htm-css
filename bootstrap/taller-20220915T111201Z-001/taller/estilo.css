@@ -1,0 +1,12 @@
+body{
+    background-image: url(./recursos/fondo.jpg);
+    background-repeat: repeat-y;
+    background-size: auto;
+}
+.carousel-inner{
+    width: 100%;
+    max-height:600px
+}
+/* .fondito{
+    background-color: rgba(0, 0, 0, 0.777);
+} */
